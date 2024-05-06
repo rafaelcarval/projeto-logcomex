@@ -10,17 +10,25 @@ Um teste com PHP e Vue usando os frameworks que quiser, onde ambos possam se com
 > Node/npm<br>
 > clonar o projeto
 ```bash
-    git clone https://github.com/rafaelcarval/projeto-logcomex
-  cd projeto-logcomex
+git clone https://github.com/rafaelcarval/projeto-logcomex
+cd projeto-logcomex
 ```
 
 # Rodar o projeto 
 
->docker compose up -d<br>
->acessar o container my-laravel-app (docker exec -it --user=root my-laravel-app bash) e rodar os comandos:<br> 
->php artisan migrate<br> 
->php artisan db:seed
-
+>Roda o comando 
+```bash
+docker compose up -d
+```
+>acessar o container my-laravel-app 
+```bash
+docker exec -it --user=root my-laravel-app bash
+``` 
+>e rodar os comandos:<br> 
+```bash
+php artisan migrate
+php artisan db:seed
+``` 
 # Acessar o projeto
 
 >backend rodando http://localhost:8000/<br>
@@ -31,4 +39,6 @@ Um teste com PHP e Vue usando os frameworks que quiser, onde ambos possam se com
 # Testes
 
 >acessar o container my-laravel-app (docker exec -it --user=root my-laravel-app bash) e rodar o comando:<br>
->php artisan test
+```bash
+php artisan test
+``` 
