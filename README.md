@@ -38,7 +38,11 @@ php artisan db:seed
 
 # Testes
 
->acessar o container my-laravel-app (docker exec -it --user=root my-laravel-app bash) e rodar o comando:<br>
+>acessar o container my-laravel-app 
+```bash
+docker exec -it --user=root my-laravel-app bash
+``` 
+>e rodar o comando:<br>
 ```bash
 php artisan test
 ``` 
