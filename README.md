@@ -13,7 +13,9 @@ Um teste com PHP e Vue usando os frameworks que quiser, onde ambos possam se com
 # Rodar o projeto 
 
 >docker compose up -d<br>
->acessar o container my-laravel-app (docker exec -it --user=root my-laravel-app bash) e rodar os comandos php artisan migrate, php artisan db:seed
+>acessar o container my-laravel-app (docker exec -it --user=root my-laravel-app bash) e rodar os comandos:<br> 
+>php artisan migrate<br> 
+>php artisan db:seed
 
 # Acessar o projeto
 
