@@ -8,9 +8,8 @@ WORKDIR /var/www
 COPY package*.json ./
 
 # Install project dependencies
-RUN npm install --include=dev
+RUN npm install @floating-ui/dom portal-vue@next chart.js@^3.7.0 vue-good-table v-pagination vite-plugin-html
 
-RUN npm install @floating-ui/dom portal-vue@next chart.js@^3.7.0 vue-good-table npm v-pagination vite-plugin-html
 # Copy project files into the docker image
 COPY . .
 
