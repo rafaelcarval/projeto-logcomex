@@ -12,6 +12,7 @@ Um teste com PHP e Vue usando os frameworks que quiser, onde ambos possam se com
 ```bash
 git clone https://github.com/rafaelcarval/projeto-logcomex
 cd projeto-logcomex
+cp .env.example .env
 ```
 
 # Rodar o projeto 
