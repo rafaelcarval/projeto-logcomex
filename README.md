@@ -27,6 +27,7 @@ docker exec -it --user=root my-laravel-app bash
 ``` 
 >e rodar os comandos:<br> 
 ```bash
+composer install
 php artisan migrate
 php artisan db:seed
 ``` 
